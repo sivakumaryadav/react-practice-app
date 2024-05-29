@@ -1,16 +1,16 @@
 import './App.css';
-import HelloWorld from './Components/Helloworld/HelloWorld';
-import Employee from './Components/NestedComponents/Employee';
-import Element from './Components/Elements/Element';
-import ImageComponent from './Components/Image/ImageComponent';
-import FirstComponent from './Components/Props/FirstComponent';
-import SecondComponent from './Components/Props/SecondComponent';
-import UseStateComponent from './Components/UseState/UseStateComponent';
-import UseEffective from './Components/UseEffective/UseEffective';
-import ClickEvent from './Components/Events/EventClick/ClickEvent';
-import EventListner from './Components/Events/EventListners/EventListner';
-import FormEvent from './Components/Events/FormEvents/FormEvent';
-import ConstructorSample from './Components/constructor/ConstructorSample';
+import HelloWorld from './Components/Functional/Helloworld/HelloWorld';
+import Employee from './Components/Functional/NestedComponents/Employee';
+import Element from './Components/Functional/Elements/Element';
+import ImageComponent from './Components/Functional/Image/ImageComponent';
+import FirstComponent from './Components/Functional/Props/FirstComponent';
+import SecondComponent from './Components/Functional/Props/SecondComponent';
+import UseStateComponent from './Components/Functional/UseState/UseStateComponent';
+import UseEffective from './Components/Functional/UseEffective/UseEffective';
+import ClickEvent from './Components/Functional/Events/EventClick/ClickEvent';
+import EventListner from './Components/Functional/Events/EventListners/EventListner';
+import FormEvent from './Components/Functional/Events/FormEvents/FormEvent';
+import ConstructorSample from './Components/ClassComponent/ConstructorExample/ConstructorSample';
 
 // Props Example
 const user = {
