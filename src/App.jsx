@@ -10,6 +10,7 @@ import UseEffective from './Components/UseEffective/UseEffective';
 import ClickEvent from './Components/Events/EventClick/ClickEvent';
 import EventListner from './Components/Events/EventListners/EventListner';
 import FormEvent from './Components/Events/FormEvents/FormEvent';
+import ConstructorSample from './Components/constructor/ConstructorSample';
 
 // Props Example
 const user = {
@@ -38,7 +39,11 @@ function App() {
 
     //<ClickEvent />
     //<EventListner />
-    <FormEvent />
+    //<FormEvent /> //login Page
+
+
+    //Tutorial 2 Example Practice
+    <ConstructorSample />
   );
 }
 
