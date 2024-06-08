@@ -11,6 +11,9 @@ import ClickEvent from './Components/Functional/Events/EventClick/ClickEvent';
 import EventListner from './Components/Functional/Events/EventListners/EventListner';
 import FormEvent from './Components/Functional/Events/FormEvents/FormEvent';
 import ConstructorSample from './Components/ClassComponent/ConstructorExample/ConstructorSample';
+import StateExample from './Components/ClassComponent/UseState/StateExample';
+import EventBind from './Components/ClassComponent/EventBind/EventBind';
+import ParentComponent from './Components/ClassComponent/Props/ParentComponent';
 
 // Props Example
 const user = {
@@ -43,7 +46,10 @@ function App() {
 
 
     //Tutorial 2 Example Practice
-    <ConstructorSample />
+    //<ConstructorSample />
+    //<StateExample />
+    //<EventBind />
+    <ParentComponent />
   );
 }
 
